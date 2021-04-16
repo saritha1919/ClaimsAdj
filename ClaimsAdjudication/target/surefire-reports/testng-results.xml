@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="7" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Test Suite" duration-ms="20675" started-at="2021-03-03T20:02:40 IST" finished-at="2021-03-03T20:03:00 IST">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="LoginTest.loginWithValidCred()[pri:0, instance:com.clamislite.test.login.LoginTest@49b0b76]" name="loginWithValidCred" class="com.clamislite.test.login.LoginTest"/>
+        <method signature="Testexe.check()[pri:0, instance:claimslite.Testexe@c267ef4]" name="check" class="claimslite.Testexe"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test name="Login1" duration-ms="7616" started-at="2021-03-03T20:02:40 IST" finished-at="2021-03-03T20:02:47 IST">
+      <class name="claimslite.Testexe">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:claimslite.Testexe@c267ef4]" name="beforeTest" is-config="true" duration-ms="35" started-at="2021-03-03T20:02:40 IST" finished-at="2021-03-03T20:02:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:claimslite.Testexe@c267ef4]" name="setUp" is-config="true" duration-ms="6896" started-at="2021-03-03T20:02:40 IST" finished-at="2021-03-03T20:02:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="check()[pri:0, instance:claimslite.Testexe@c267ef4]" name="check" duration-ms="1" started-at="2021-03-03T20:02:47 IST" finished-at="2021-03-03T20:02:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:claimslite.Testexe@c267ef4]" name="tearDown" is-config="true" duration-ms="655" started-at="2021-03-03T20:02:47 IST" finished-at="2021-03-03T20:02:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- claimslite.Testexe -->
+    </test> <!-- Login1 -->
+    <test name="Login" duration-ms="20675" started-at="2021-03-03T20:02:40 IST" finished-at="2021-03-03T20:03:00 IST">
+      <class name="com.clamislite.test.login.LoginTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.clamislite.test.login.LoginTest@49b0b76]" name="beforeTest" is-config="true" duration-ms="35" started-at="2021-03-03T20:02:40 IST" finished-at="2021-03-03T20:02:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clamislite.test.login.LoginTest@49b0b76]" name="setUp" is-config="true" duration-ms="6668" started-at="2021-03-03T20:02:40 IST" finished-at="2021-03-03T20:02:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithValidCred()[pri:0, instance:com.clamislite.test.login.LoginTest@49b0b76]" name="loginWithValidCred" duration-ms="13207" started-at="2021-03-03T20:02:46 IST" finished-at="2021-03-03T20:03:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCred -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clamislite.test.login.LoginTest@49b0b76]" name="tearDown" is-config="true" duration-ms="740" started-at="2021-03-03T20:03:00 IST" finished-at="2021-03-03T20:03:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.clamislite.test.login.LoginTest -->
+    </test> <!-- Login -->
+  </suite> <!-- Smoke Test Suite -->
+</testng-results>

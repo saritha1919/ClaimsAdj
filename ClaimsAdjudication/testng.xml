@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite" parallel="tests" thread-count="10">
+	<listeners>
+		<listener class-name="com.adjudication.reports.TestListener" />
+	</listeners>
+	<parameter name="environment" value="test" />
+	<!-- <groups> <run> <include name="SmokeTest" /> </run> </groups> -->
+	<test name="GlobalGridSearch">
+		<classes>
+			 <class name="com.adjudication.test.globalsearch.GlobalGridSearchTest" />
+		</classes>
+	</test>
+	<test name="FFSProMangReviewGridSearch">
+		<classes>
+			 <class name="com.adjudication.test.ffsProfessional.gridSearch.FFSProMangReviewGridSearchTest" />
+		</classes>
+	</test>
+	 <test name="FFSProPendGridSearch">
+		<classes>
+			 <class name="com.adjudication.test.ffsProfessional.gridSearch.FFSProPendGridSearchTest" />
+		</classes>
+	</test>
+	<test name="FFSProOnHoldGridSearch">
+		<classes>
+			 <class name="com.adjudication.test.ffsProfessional.gridSearch.FFSProOnHoldGridSearchTest" />
+		</classes>
+	</test>
+	<test name="FFSProApporvedGridSearch">
+		<classes>
+			 <class name="com.adjudication.test.ffsProfessional.gridSearch.FFSProApporvedGridSearchTest" />
+		</classes>
+	</test>
+	<test name="FFSProDeniedGridSearch">
+		<classes>
+			 <class name="com.adjudication.test.ffsProfessional.gridSearch.FFSProDeniedGridSearchTest" />
+		</classes>
+	</test>
+	<test name="FFSProPreBatchGridSearch">
+		<classes>
+			 <class name="com.adjudication.test.ffsProfessional.gridSearch.FFSProPreBatchGridSearchTest" />
+		</classes>
+	</test>
+</suite> 
